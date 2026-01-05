@@ -1,0 +1,2 @@
+# Re-enable legacy WORKSPACE (temporary workaround for Bazel 8+)
+build --incompatible_disable_workspace=false
