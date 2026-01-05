@@ -1,0 +1,1 @@
+module(name = 'com_google_protobuf', version = '0.0.0')
