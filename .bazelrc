@@ -1,2 +1,4 @@
-# Option removed: Bazel 8+ does not accept --incompatible_disable_workspace
-# Use MODULE.bazel (Bzlmod) instead to declare external dependencies.
+# Disable Bzlmod so legacy WORKSPACE is used
+build --noenable_bzlmod
+
+# Use MODULE.bazel (Bzlmod) instead to declare external dependencies if desired.
