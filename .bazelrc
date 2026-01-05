@@ -1,4 +1,6 @@
 # Disable Bzlmod so legacy WORKSPACE is used
+# Updated: 2026-01-05T20:10:43.442Z
 build --noenable_bzlmod
+build --enable_workspace
 
 # Use MODULE.bazel (Bzlmod) instead to declare external dependencies if desired.
