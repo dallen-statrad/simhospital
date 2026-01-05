@@ -1,3 +1,2 @@
-# Minimal BUILD file to provide a package for rules_cc cc
-# Intentionally empty
+# Minimal BUILD file for rules_cc cc package
 

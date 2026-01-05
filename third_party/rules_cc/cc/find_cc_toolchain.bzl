@@ -5,4 +5,3 @@ def find_cc_toolchain():
 
 def use_cc_toolchain(name, toolchain):
     return []
-
