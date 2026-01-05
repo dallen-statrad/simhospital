@@ -1,0 +1,7 @@
+bazel_dep(name = "io_bazel_rules_go", version = "0.24.11")
+
+# Gazelle used by WORKSPACE
+bazel_dep(name = "bazel_gazelle", version = "0.20.0")
+
+# rules_docker referenced in WORKSPACE
+bazel_dep(name = "io_bazel_rules_docker", version = "0.25.0")
