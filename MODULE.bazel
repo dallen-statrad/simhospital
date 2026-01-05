@@ -1,9 +1,9 @@
 module(name = "simhospital", version = "0.0.0")
 
-bazel_dep(name = "io_bazel_rules_go", version = "v0.24.11")
+bazel_dep(name = "bazelbuild/rules_go", version = "v0.24.11")
 
 # Gazelle used by WORKSPACE
-bazel_dep(name = "bazel_gazelle", version = "v0.20.0")
+bazel_dep(name = "bazelbuild/bazel-gazelle", version = "v0.20.0")
 
 # rules_docker referenced in WORKSPACE
-bazel_dep(name = "io_bazel_rules_docker", version = "v0.25.0")
+bazel_dep(name = "bazelbuild/rules_docker", version = "v0.25.0")
