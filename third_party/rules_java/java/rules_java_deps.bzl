@@ -3,3 +3,7 @@
 
 def rules_java_deps():
     return None
+
+def rules_java_dependencies():
+    # Compatibility stub expected by WORKSPACE
+    return None
