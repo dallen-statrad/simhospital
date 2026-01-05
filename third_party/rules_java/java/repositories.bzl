@@ -3,3 +3,7 @@
 
 def repositories():
     return None
+
+# Compatibility stub expected by WORKSPACE for toolchain setup
+def rules_java_toolchains():
+    return None
