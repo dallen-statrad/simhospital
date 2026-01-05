@@ -143,7 +143,7 @@ docker_push(
     name = "simhospital_image_push",
     image = ":simhospital_container_image",
     registry = "gcr.io",
-    repository = "<your_repository_here>/simhospital",
+    repository = "dallen-statrad/simhospital",
     stamp = "@io_bazel_rules_docker//stamp:always",
     tag = "latest",
 )
