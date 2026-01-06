@@ -213,10 +213,7 @@ go_repository(
 go_repository(
     name = "com_google_fhir",
     importpath = "google/fhir",
-    urls = [
-        "https://mirror.bazel.build/github.com/google/fhir/archive/a54aa66a3967470096775850602b4b06f00c3d79.zip",
-        "https://github.com/google/fhir/archive/a54aa66a3967470096775850602b4b06f00c3d79.zip",
-    ],
+    urls = ["https://github.com/google/fhir/archive/a54aa66a3967470096775850602b4b06f00c3d79.zip"],
     sha256 = "29a0f0957642f9167cdd0763c794665d44a9e19adc3c0c8ea6d1ad8f9a2a147f",
     strip_prefix = "fhir-a54aa66a3967470096775850602b4b06f00c3d79",
     type = "zip",
