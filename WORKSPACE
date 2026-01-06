@@ -25,8 +25,13 @@ local_repository(name = "com_google_protobuf", path = "third_party/com_google_pr
 http_archive(
     name = "io_bazel_rules_docker",
     sha256 = "b1e80761a8a8243d03ebca8845e9cc1ba6c82ce7c5179ce2b295cd36f7e394bf",
-    urls = ["https://github.com/bazelbuild/rules_docker/releases/download/v0.25.0/rules_docker-v0.25.0.tar.gz"],
+    urls = [
+        "https://mirror.bazel.build/github.com/bazelbuild/rules_docker/releases/download/v0.25.0/rules_docker-v0.25.0.tar.gz",
+        "https://github.com/bazelbuild/rules_docker/releases/download/v0.25.0/rules_docker-v0.25.0.tar.gz",
+    ],
 )
+
+local_repository(name = "rules_python", path = "third_party/rules_python")
 
 local_repository(name = "rules_java", path = "third_party/rules_java")
 local_repository(name = "rules_cc", path = "third_party/rules_cc")
