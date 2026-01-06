@@ -3,3 +3,6 @@
 
 def repositories():
     return None
+
+# Compatibility symbol expected by WORKSPACE
+py_repositories = repositories
